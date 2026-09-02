@@ -1,0 +1,58 @@
+﻿Nom;ID;Utilisateur;Groupe;Durée de garantie; Date de mise en service;Type d'élément;Système d'exploitation;Applications
+PPB-ADM-001;1;Turcotte Amber;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PPB-ADM-002;2;Marcoux Pascal;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PPB-ADM-003;3;Roux Nicolas;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PPB-ADM-004;4;Couturier Odette;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PPB-ADM-005;5;Favreau Gifford;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PPB-ADM-006;6;Fluet Damien;GG_Direction;48 mois;14/03/2018;PC portable;Windows 10;Colour Contrast Analiser
+PFX-SIT-001;7;Banon Basile;GG_Informatique;48 mois;17/02/2019;PC fixe;Ubuntu;Kontrast
+PFX-SIT-002;8;Rhouma Walid;GG_Informatique;48 mois;24/11/2022;PC fixe;Ubuntu;Kontrast
+PPB-TST-001;9;Langelier Gaspar;GG_Testeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-TST-002;10;Descoteaux Dominique;GG_Testeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PFX-TST-001;11;Caron Cédric;GG_Testeurs;48 mois;28/10/2019;PC fixe;Ubuntu;Kontrast
+PPB-TST-003;12;Desaulniers Christiane;GG_Testeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-TST-004;13;Jacob Vincent;GG_Testeurs;48 mois;24/04/2023;PC portable;Windows 10;Colour Contrast Analiser
+PFX-SND-001;16;Dupy Emmeline;GG_Audio;48 mois;12/01/2022;PC fixe;Windows 10;Colour Contrast Analiser
+PFX-SND-002;17;Anoux Marc;GG_Audio;48 mois;12/01/2022;PC fixe;Windows 10;Colour Contrast Analiser
+PFX-SND-003;18;Gaulin Florence;GG_Audio;48 mois;12/01/2022;PC fixe;Windows 10;Colour Contrast Analiser
+PPB-SND-001;19;Gougeon Véronique;GG_Audio;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-SND-002;20;Ramos Denis;GG_Audio;48 mois;24/04/2023;PC portable;Windows 10;Colour Contrast Analiser
+PPB-GPH-001;21;Allard Mathilda;GG_Graphistes;48 mois;25/03/2020;PC portable;Windows 10;Colour Contrast Analiser
+PPB-GPH-002;22;Lazure Morgana;GG_Graphistes;48 mois;25/03/2020;PC portable;Windows 10;Colour Contrast Analiser
+PCX-GPH-001;23;Lang Fabrice;GG_Graphistes;48 mois;25/03/2020;PC fixe;Windows 10;Colour Contrast Analiser
+PCX-GPH-002;24;Paquette Fauna;GG_Graphistes;48 mois;25/03/2020;PC fixe;Windows 10;Colour Contrast Analiser
+PCX-GPH-003;25;Séguin Cerise;GG_Graphistes;48 mois;25/03/2020;PC fixe;Windows 10;Colour Contrast Analiser
+PPB-GPH-004;26;Daigneault Julienne;GG_Graphistes;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-GPH-005;27;Laurent Laetitia;GG_Graphistes;48 mois;24/04/2023;PC portable;Windows 10;Colour Contrast Analiser
+PPB-GPH-006;28;Cailot Antoine;GG_Graphistes;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-GPH-007;29;Schneider Bertrand;GG_Graphistes;48 mois;24/04/2023;PC portable;Windows 10;Colour Contrast Analiser
+PFX-DEV-001;30;Fournier Alexandre;GG_Developpeurs;48 mois;28/10/2019;PC fixe;Ubuntu;Kontrast
+PFX-DEV-002;31;Monjeau Martine;GG_Developpeurs;48 mois;28/10/2019;PC fixe;Ubuntu;Kontrast
+PFX-DEV-003;32;Champagne Jeannine;GG_Developpeurs;48 mois;08/01/2019;PC fixe;Ubuntu;Kontrast
+PFX-DEV-004;33;Baron Javier;GG_Developpeurs;48 mois;08/01/2019;PC fixe;Ubuntu;Kontrast
+PFX-DEV-005;34;de Buisson Paul Poirier;GG_Developpeurs;48 mois;24/04/2023;PC fixe;Ubuntu;Kontrast
+PPB-DEV-001;35;Arcouet Vick;GG_Developpeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-DEV-002;36;Gamelin Hariette;GG_Developpeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-DEV-003;37;Aupry Byron;GG_Developpeurs;48 mois;12/01/2022;PC portable;Windows 10;Colour Contrast Analiser
+PPB-DEV-004;38;Navarro Elise;GG_Developpeurs;48 mois;24/04/2023;PC portable;Windows 10;Colour Contrast Analiser
+client-windows;54; Utilisateurs AD;;48 mois;;Ordinateur;Windows 10;Colour Contrast Analiser
+client-ubuntu;56; Utilisateurs AD;;48 mois;;Ordinateur;Ubuntu;Kontrast
+Serveur-AD;57; Administrateurs;;48 mois;;Ordinateur;Windows Server 2019;
+Portable-Windows;58;Utilisateurs AD;;48 mois;;Ordinateur;Windows 10;Colour Contrast Analiser
+BOX-SIT-001;1; Administrateurs;;50 mois;17/02/2019;Matériel réseau;;
+SWS-SIT-001;2; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Cisco IOS;
+SWS-ADM-001;3; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Cisco IOS;
+SWS-DEV-001;4; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Cisco IOS;
+SWS-GPH-001;5; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Cisco IOS;
+SWS-TST-001;6; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Cisco IOS;
+FWL-SIT-001;7; Administrateurs;;50 mois;17/02/2019;Matériel réseau;Pfsense;
+SRV-INF-001;8; Administrateurs;;50 mois;17/02/2019;Matériel réseau SRV;Windows Server 2019;
+SRV-INF-002;9; Administrateurs;;50 mois;21/09/2017;Matériel réseau SRV;Windows Server 2019;
+SPA-TST-001;1;Hervé Isabelle;GG_Testeurs;24 mois;24/04/2023;Téléphone;Smartphone Android;
+SPI-TST-001;2;Ruiz René Daniel;GG_Testeurs;24 mois;24/04/2023;Téléphone;Smartphone Android;
+SPA-DEV-001;3;Champagne Jeannine;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Android;
+SPA-DEV-002;4;Baron Javier;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Android;
+SPA-DEV-003;5;Arcouet Vick;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Android;
+SPA-DEV-004;6;Navarro Elise;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Android;
+SPI-DEV-001;7;Monjeau Martine;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Iphone;
+SPI-DEV-002;8;Gamelin Hariette;GG_Developpeurs;24 mois;04/01/2023;Téléphone;Smartphone Iphone;

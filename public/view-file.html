@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultation du fichier</title>
+  <style>
+    body { background-color: #0f172a; color: #e2e8f0; font-family: monospace; padding: 20px; }
+    pre { background: #1e293b; padding: 15px; border-radius: 8px; overflow-x: auto; white-space: pre-wrap; word-break: break-all; }
+    .header { font-family: sans-serif; margin-bottom: 15px; color: #38bdf8; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="header" id="fileName">Chargement du fichier...</div>
+  <pre id="content">Chargement...</pre>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const fileUrl = params.get('file');
+    if (fileUrl) {
+      document.getElementById('fileName').innerText = "Fichier : " + fileUrl;
+      fetch(fileUrl)
+        .then(response => {
+          if (!response.ok) throw new Error("Fichier introuvable (404)");
+          return response.text();
+        })
+        .then(text => {
+          document.getElementById('content').textContent = text;
+        })
+        .catch(err => {
+          document.getElementById('content').textContent = "Erreur de chargement : " + err.message;
+        });
+    }
+  </script>
+</body>
+</html>

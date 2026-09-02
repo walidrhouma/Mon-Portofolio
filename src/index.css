@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-base-800 text-slate-300 antialiased;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    line-height: 1.2;
+    @apply text-white font-bold tracking-tight;
+  }
+  ::selection {
+    @apply bg-cyber-blue/30 text-white;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-6 lg:px-8;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyber-blue to-cyber-emerald bg-clip-text text-transparent;
+  }
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, rgba(56, 189, 248, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(56, 189, 248, 0.06) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+}
+
+/* Thin custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
