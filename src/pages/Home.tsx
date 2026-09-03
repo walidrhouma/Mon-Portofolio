@@ -240,7 +240,7 @@ export default function Home() {
               Compétences Techniques
             </span>
             <h2 className="text-3xl font-bold text-white mt-2">
-              Une maîtrise complète du SI
+              Domaines de compétences
             </h2>
           </div>
         </motion.div>
