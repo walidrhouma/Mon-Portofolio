@@ -68,7 +68,7 @@ const highlights = [
 ];
 
 const stats = [
-  { value: '13', label: 'Projets techniques validés' },
+  { value: '12', label: 'Projets techniques validés' },
   { value: '6+ ans', label: "D'expérience terrain IT" },
   { value: 'Bac+4', label: 'Titre RNCP Niv. 6 (OC)' },
   { value: 'Permis B', label: 'Véhiculé & Mobile' },
