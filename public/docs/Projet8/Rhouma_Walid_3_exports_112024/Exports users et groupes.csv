@@ -1,0 +1,51 @@
+﻿Type;Nom;OrganizationalUnit
+Utilisateur;Marc.Anoux;OU=Audio,DC=barzini,DC=local
+Utilisateur;Florence.Gaulin;OU=Audio,DC=barzini,DC=local
+Utilisateur;Véronique.Gougeon;OU=Audio,DC=barzini,DC=local
+Utilisateur;Denis.Ramos;OU=Audio,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Audio;OU=Audio,DC=barzini,DC=local
+Groupe sécurité Global;GG_Audio;OU=Audio,DC=barzini,DC=local
+Utilisateur;Martine.Monjeau;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Jeannine.Champagne;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Javier.Baron;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Vick.Arcouet;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Hariette.Gamelin;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Byron.Aupry;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Elise.Navarro;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Paul.Poirier de Buis;OU=Développeurs,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Developpeurs;OU=Développeurs,DC=barzini,DC=local
+Groupe  sécurité Global;GG_Developpeurs;OU=Développeurs,DC=barzini,DC=local
+Utilisateur;Amber.Turcotte;OU=Direction,DC=barzini,DC=local
+Utilisateur;Pascal.Marcoux;OU=Direction,DC=barzini,DC=local
+Utilisateur;Nicolas.Roux;OU=Direction,DC=barzini,DC=local
+Utilisateur;Odette.Couturier;OU=Direction,DC=barzini,DC=local
+Utilisateur;Gifford.Favreau;OU=Direction,DC=barzini,DC=local
+Utilisateur;Damien.Fluet;OU=Direction,DC=barzini,DC=local
+Utilisateur;Alexandre.Fournier;OU=Direction,DC=barzini,DC=local
+Utilisateur;Mathilda.Allard;OU=Direction,DC=barzini,DC=local
+Utilisateur;Emmeline.Dupy;OU=Direction,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Direction;OU=Direction,DC=barzini,DC=local
+Groupe  sécurité Global;GG_Direction;OU=Direction,DC=barzini,DC=local
+Utilisateur;Morgana.Lazure;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Fabrice.Lang;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Fauna.Paquette;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Cerise.Séguin;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Julienne.Daigneault;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Laeticia.Laurent;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Antoine.Cailot;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Bertrand.Schneider;OU=Graphistes,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Graphistes;OU=Graphistes,DC=barzini,DC=local
+Groupe  sécurité Global;GG_Graphistes;OU=Graphistes,DC=barzini,DC=local
+Utilisateur;Walid.Rhouma;OU=Informatique,DC=barzini,DC=local
+Utilisateur;Basile.Banon;OU=Informatique,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Informatique;OU=Informatique,DC=barzini,DC=local
+Groupe  sécurité Global;GG_Informatique;OU=Informatique,DC=barzini,DC=local
+Utilisateur;Gaspard.Langelier;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;Dominique.Descoteaux;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;Cédric.Caron;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;Christiane.Desaulnie;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;René Daniel.Ruiz;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;Isabelle.Hervé;OU=Testeurs,DC=barzini,DC=local
+Utilisateur;Vincent.Jacob;OU=Testeurs,DC=barzini,DC=local
+Groupe  sécurité Domaine Local;DL_Partage_Testeurs;OU=Testeurs,DC=barzini,DC=local
+Groupe  sécurité Global;GG_Testeurs;OU=Testeurs,DC=barzini,DC=local

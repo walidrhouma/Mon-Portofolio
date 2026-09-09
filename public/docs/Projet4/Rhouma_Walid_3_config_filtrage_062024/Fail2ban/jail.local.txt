@@ -1,0 +1,32 @@
+[DEFAULT]
+ignoreip = 127.0.0.1 192.168.0.20
+findtime = 10m
+bantime = 5m
+maxretry = 3
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = %(sshd_log)s
+maxretry = 3
+
+[vsftpd]
+enabled = true
+port = ftp,ftp-data,ftps,ftps-data
+filter = vsftpd
+logpath = /var/log/vsftpd.log
+maxretry = 3
+bantime = 5m
+action = iptables-multiport[name=vsftpd, port="ftp,ftp-data,ftps,ftps-data", protocol=tcp]
+
+[rainbowbank]
+enabled = true
+filter = rainbowbank
+action = iptables-allports[name=rainbowbank]
+logpath = /var/log/apache2/*.log
+maxretry = 3
+findtime = 600
+bantime = 300
+
+

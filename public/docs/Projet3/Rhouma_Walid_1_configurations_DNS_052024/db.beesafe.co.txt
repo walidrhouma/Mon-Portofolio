@@ -1,0 +1,14 @@
+$TTL	86400; 1 jour
+$ORIGIN beesafe.co.
+@	IN	SOA	srv-dns.beesafe.co. root.beesafe.co. (
+			2		; Serial
+			604800		; Refresh
+			86400		; Retry
+			2419200		; Expire
+			604800 )	; Negative Cache TTL
+;
+@		IN	NS	srv-dns
+srv-dns		IN	A	192.168.0.40
+srv-sql		IN	A	192.168.0.30
+srv-web		IN	A	192.168.0.20
+www		IN	CNAME	srv-web
